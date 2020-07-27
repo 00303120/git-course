@@ -10,6 +10,6 @@ int main(void){
 }
 
 void saludar(){
-    cout << "Elmer te saluda, no me importa " << endl;
+    cout << "Elmer te saluda, si me importa " << endl;
 
 }
