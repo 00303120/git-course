@@ -16,3 +16,5 @@ que descargar antes dichos cambios
 Al realizar un git pull es la union de dos comandos, git fetch y git merge
 -git fetch: Extrae los cambios en la rama remota
 -git merge: Fusiona la rama local y remota, es una similitud a commit por lo que necesita un mensaje
+
+--La reparación de errores por convencia es de hacerla en una rama aparte
