@@ -1,5 +1,10 @@
 Comandos Utilizados en Git
 
+
+:Configuracion global de repositorio, si no lo necesitamos global solo por repositorio quitar el parametro global
+-git config --global user.name "eortiz"
+-git config --global user.email "eortiz@gmail.com"
+
 Comandos utilizados
 -git init: Inicializa el repositorio
 -git status: Leer el estado del repositorio
@@ -18,3 +23,16 @@ Al realizar un git pull es la union de dos comandos, git fetch y git merge
 -git merge: Fusiona la rama local y remota, es una similitud a commit por lo que necesita un mensaje
 
 --La reparación de errores por convencia es de hacerla en una rama aparte
+-git branch bugfix: Creamos una nueva rama que servira para corregir errores
+-git checkout bugfix: Nos cambiamos a la rama bugfix 
+-git merge bugfix: Anade los cambios de bugfix que es la rama hacia donde se encuentra actualmente "merge" en este caso
+-git push origin bugfix: Enviamos la rama bugfix al remote
+.gitignore: Archivo creado para no enviar rutas a nuestro repositorio
+
+-git reset --soft HEAD~1: Deshacer el ultimo commit
+-git reset --hard HEAD~1: Deshacer el ultimo commit
+-git checkout 109ee221c4f32fbede6b0355b428bd691295dbef: Ir al commit especificado segun id.
+
+-git diff: Cambios que no estan en stage
+-git diff --stage: Cambios que no estan en stage
+-git branch: Muestra el listado de ramas
